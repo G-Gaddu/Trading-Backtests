@@ -24,7 +24,7 @@ from sklearn.metrics import mean_squared_error
 import statsmodels.api as sm
 
 start_time = time.time()
-os.chdir('/Users/redmond1500/Downloads/')
+os.chdir('/Users/gulshinder/Downloads/')
 
 def getData(fname, sheet_spot, index_name):
     df_data = pd.read_excel(fname, sheet_name = sheet_spot)
